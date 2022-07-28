@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Tester
+comment1.params=
+comment1.target=void\ testGetFollows()
+comment1.text=\n\ This\ method\ creates\ a\ MarkovOne\ object,\ sets\ the\ training\ text\ as\n\ \u201Cthis\ is\ a\ test\ yes\ this\ is\ a\ test.\u201D.\ Then\ have\ it\ call\ getFollows\ and\n\ prints\ out\ the\ resulting\ ArrayList\ and\ also\ its\ size\n
+comment2.params=
+comment2.target=void\ testGetFollowsWithFile()
+numComments=3

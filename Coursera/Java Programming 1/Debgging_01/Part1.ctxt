@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Part1
+comment0.text=\n\ Debugging\ Task,\ this\ is\ the\ initial\ method\:\n\ public\ void\ findAbc(String\ input)\ {\n\ \ \ \ int\ index\ \=\ input.indexOf("abc");\n\ \ \ \ while\ (true)\ {\n\ \ \ \ \ \ \ \ if\ (index\ \=\=\ -1)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ break;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ String\ found\ \=\ input.substring(index+1,\ index+4);\n\ \ \ \ \ \ \ \ System.out.println(found);\n\ \ \ \ \ \ \ \ index\ \=\ input.indexOf("abc",\ index+4);\n\ \ \ \ }\n}\n\ \ \ public\ void\ test()\ {\n\ \ \ \ //no\ code\ yet\n}\n\ @andergcp\ (Anderson\ Castiblanco)\ \n
+comment1.params=input
+comment1.target=void\ findAbc(java.lang.String)
+comment2.params=
+comment2.target=void\ test()
+numComments=3

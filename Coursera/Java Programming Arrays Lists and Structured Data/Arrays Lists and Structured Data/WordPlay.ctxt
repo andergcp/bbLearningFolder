@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WordPlay
+comment0.text=\n\ Program\ to\ transform\ words\ from\ a\ file\ into\ another\ form,\n\ such\ as\ replacing\ vowels\ with\ an\ asterix.\n\ \n\ @andergcp\ (Anderson\ Castiblanco)\ \n\ @version\ (14th\ January\ 2021)\n
+comment1.params=ch
+comment1.target=boolean\ isVowel(char)
+comment1.text=\n\ This\ method\ returns\ true\ if\ ch\ is\ a\ vowel\ (one\ of\ 'a',\ 'e',\ 'i',\ 'o',\n\ or\ 'u'\ or\ the\ uppercase\ versions)\ and\ false\ otherwise.\n
+comment2.params=
+comment2.target=void\ testIsVowel()
+comment2.text=\n\ Tests\ isVowel()\ method\n
+comment3.params=phrase\ ch
+comment3.target=java.lang.String\ replaceVowels(java.lang.String,\ char)
+comment3.text=\n\ Return\ a\ String\ that\ is\ the\ string\ phrase\ with\ all\ the\ vowels\n\ (uppercase\ or\ lowercase)\ replaced\ by\ ch.\n
+comment4.params=
+comment4.target=void\ testReplaceVowels()
+comment4.text=\n\ Tests\ replaceVowels()\ method\n
+comment5.params=phrase\ ch
+comment5.target=java.lang.String\ emphasize(java.lang.String,\ char)
+comment5.text=\n\ Return\ a\ String\ that\ is\ the\ string\ phrase\ but\ with\ the\n\ Char\ ch\ (upper-\ or\ lowercase)\ replaced\ by\n\ \u2018*\u2019\ if\ it\ is\ in\ an\ odd\ number\ location\ in\ the\ string\n\ (e.g.\ the\ first\ character\ has\ an\ odd\ number\ location\ but\ an\ even\n\ index,\ it\ is\ at\ index\ 0),\ or\ \u2018+\u2019\ if\ it\ is\ in\ an\ even\ number\ location\n\ in\ the\ string\ (e.g.\ the\ second\ character\ has\ an\ even\ number\ location\n\ but\ an\ odd\ index,\ it\ is\ at\ index\ 1).\n
+comment6.params=
+comment6.target=void\ testEmphasize()
+comment6.text=\n\ Tests\ emphasize()\ method\n
+numComments=7

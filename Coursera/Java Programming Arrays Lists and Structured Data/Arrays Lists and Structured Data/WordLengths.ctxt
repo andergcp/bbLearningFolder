@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=WordLengths
+comment1.params=word
+comment1.target=int\ getLength(java.lang.String)
+comment1.text=\n\ Return\ the\ length\ of\ a\ word,\ If\ a\ word\ has\ a\ non-letter\ as\ the\ first\ or\ last\ character,\n\ it\ should\ not\ be\ counted\ as\ part\ of\ the\ word\ length.\n
+comment2.params=resource\ counts
+comment2.target=void\ countWordLengths(edu.duke.FileResource,\ int[])
+comment2.text=\n\ This\ method\ reads\ in\ the\ words\ from\ resource\ and\ count\ the\ number\ of\ words\ of\ each\ length\ for\ all\ the\n\ words\ in\ resource,\ storing\ these\ counts\ in\ the\ array\ counts.\n
+comment3.params=values
+comment3.target=int\ indexOfMax(int[])
+comment3.text=\n\ Returns\ the\ index\ position\ of\ the\ largest\ element\ in\ values.\n
+comment4.params=
+comment4.target=void\ testCountWordLengths()
+comment4.text=\n\ Tests\ CountWordLengths()\ and\ indexOfMax()\ methods\n
+numComments=5

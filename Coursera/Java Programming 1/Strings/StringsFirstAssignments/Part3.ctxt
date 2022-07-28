@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Part3
+comment0.text=\n\ Class\ for\ Duke-Coursera\ Java\ Programming\ assignment\n\ \n\ @author\ (@andergcp)\n
+comment1.params=stringa\ stringb
+comment1.target=boolean\ twoOccurrences(java.lang.String,\ java.lang.String)
+comment2.params=stringa\ stringb
+comment2.target=java.lang.String\ lastPart(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ testing()
+numComments=4

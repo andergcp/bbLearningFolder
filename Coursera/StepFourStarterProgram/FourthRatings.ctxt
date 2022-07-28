@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=FourthRatings
+comment1.params=id\ minimalRaters
+comment1.target=double\ getAverageByID(java.lang.String,\ int)
+comment1.text=\n\ This\ method\ returns\ a\ double\ representing\ the\ average\ movie\ rating\ for\ this\ ID\ if\n\ there\ are\ at\ least\ minimalRaters\ ratings.\ If\ there\ are\ not\ minimalRaters\ ratings,\n\ then\ it\ returns\ 0.0\n
+comment2.params=minimalRaters
+comment2.target=java.util.ArrayList\ getAverageRatings(int)
+comment2.text=\n\ This\ method\ finds\ the\ average\ rating\ for\ every\ movie\ that\ has\ been\ rated\ by\ at\ least\n\ minimalRaters\ raters.\ Store\ each\ such\ rating\ in\ a\ Rating\ object\ in\ which\ the\ movie\n\ ID\ and\ the\ average\ rating\ are\ used\ in\ creating\ the\ Rating\ object.\ This\ method\ returns\n\ an\ ArrayList\ of\ all\ the\ Rating\ objects\ for\ movies\ that\ have\ at\ least\ the\ minimal\n\ number\ of\ raters\ supplying\ a\ rating\n
+comment3.params=minimalRaters\ filterCriteria\ tr
+comment3.target=java.util.ArrayList\ getAverageRatingsByFilter(int,\ Filter,\ ThirdRatings)
+comment4.params=me\ r
+comment4.target=double\ dotProduct(Rater,\ Rater)
+comment4.text=\n\ This\ method\ first\ translates\ a\ rating\ from\ the\ scale\ 0\ to\ 10\ to\n\ the\ scale\ -5\ to\ 5\ and\ return\ the\ dot\ product\ of\ the\ ratings\ of\ movies\n\ that\ they\ both\ rated.\n\ If\ they\ dond't\ have\ common\ movies\ then\ returns\ -10\n
+comment5.params=id
+comment5.target=java.util.ArrayList\ getSimilarities(java.lang.String)
+comment6.params=id\ numSimilarRaters\ minimalRaters
+comment6.target=java.util.ArrayList\ getSimilarRatings(java.lang.String,\ int,\ int)
+comment6.text=\n\ This\ method\ returns\ an\ ArrayList\ of\ type\ Rating,\ of\ movies\ and\n\ their\ weighted\ average\ ratings\ using\ only\ the\ top\ numSimilarRaters\n\ with\ positive\ ratings\ and\ including\ only\ those\ movies\ that\ have\ at\n\ least\ minimalRaters\ ratings\ from\ those\ most\ similar\ raters\ (not\ just\n\ minimalRaters\ ratings\ overall)\n
+comment7.params=id\ numSimilarRaters\ minimalRaters\ filterCriteria
+comment7.target=java.util.ArrayList\ getSimilarRatingsByFilter(java.lang.String,\ int,\ int,\ Filter)
+comment7.text=\n\ Similar\ to\ the\ getSimilarRatings\ method\ but\ has\ one\ additional\ Filter\ parameter\n\ named\ filterCriteria\ and\ uses\ that\ filter\ to\ access\ and\ rate\ only\ those\ movies\n\ that\ match\ the\ filter\ criteria.\ \n
+numComments=8

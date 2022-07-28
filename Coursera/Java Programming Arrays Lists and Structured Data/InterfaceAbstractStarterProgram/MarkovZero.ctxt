@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MarkovZero
+comment1.params=
+comment1.target=MarkovZero()
+comment2.params=numChars
+comment2.target=java.lang.String\ getRandomText(int)
+comment2.text=\n\ This\ method\ generates\ and\ returns\ random\ text\ that\ is\ numChars\ long.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

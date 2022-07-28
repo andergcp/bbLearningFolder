@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FirstRatings
+comment1.params=filename
+comment1.target=java.util.ArrayList\ loadMovies(java.lang.String)
+comment1.text=\n\ This\ method\ processes\ every\ record\ from\ the\ CSV\ file\ whose\ name\ is\n\ filename,\ a\ file\ of\ movie\ information,\ and\ return\ an\ ArrayList\ of\ type\n\ Movie\ with\ all\ of\ the\ movie\ data\ from\ the\ file.\n
+comment2.params=
+comment2.target=void\ testLoadMovies()
+comment2.text=\n\ This\ method\ does\ several\ things\:\ \n
+comment3.params=m
+comment3.target=void\ addDirectors(Movie)
+comment3.text=\n\ This\ method\ adds\ directors\ from\ each\ movie\ to\ the\ HashMap\ directors\n
+comment4.params=
+comment4.target=void\ maxMoviesOfDirectors()
+comment4.text=\n\ This\ method\ takes\ the\ HashMap\ directors\ and\ prints\ the\ \ maximum\ number\ of\ movies\ by\n\ any\ director,\ and\ who\ the\ directors\ are\ that\ directed\ that\ many\ movies.\n
+comment5.params=filename
+comment5.target=java.util.ArrayList\ loadRaters(java.lang.String)
+comment6.params=
+comment6.target=void\ testLoadRaters()
+numComments=7

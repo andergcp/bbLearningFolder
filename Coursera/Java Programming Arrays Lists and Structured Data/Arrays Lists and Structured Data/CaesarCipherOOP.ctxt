@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CaesarCipherOOP
+comment0.text=\n\ Implements\ the\ CeasarCipher\ Class\ and\ methods,\ but\ implementing\ OOP\n\ \n\ @andergcp\ (Anderson\ Castiblanco)\ \n\ @version\ (25\ Jan\ 2021)\n
+comment1.params=key
+comment1.target=CaesarCipherOOP(int)
+comment1.text=\n\ Class\ contructor\n
+comment2.params=input
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment2.text=\n\ This\ method\ returns\ a\ String\ that\ has\ been\ encrypted\ using\ the\n\ Caesar\ Cipher\ algorithm.\ We\ can\ assume\ that\ all\ the\ alphabetic\n\ characters\ are\ uppercase\ letters.\n
+comment3.params=input
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+comment3.text=\n\ his\ method\ returns\ a\ String\ that\ is\ the\ encrypted\ String\ decrypted\ using\ the\ key\ associated\ with\n\ this\ CaesarCipher\ object\n
+numComments=4

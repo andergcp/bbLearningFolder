@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CaesarCipherTwo
+comment0.text=\n\ Implements\ CaesarCipher\ algorithm\ using\ two\ keys\n\ \n\ @andergcp\ (Anderson\ Castiblanco)\ \n\ @version\ (25th\ Jan\ 2021)\n
+comment1.params=key1\ key2
+comment1.target=CaesarCipherTwo(int,\ int)
+comment2.params=input
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment2.text=\n\ This\ method\ returns\ a\ String\ that\ is\ the\ input\ encrypted\ using\ the\ two\ shifted\ alphabets.\n
+comment3.params=input
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+numComments=4

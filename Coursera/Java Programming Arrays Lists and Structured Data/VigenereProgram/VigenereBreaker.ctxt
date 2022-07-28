@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=VigenereBreaker
+comment1.params=message\ whichSlice\ totalSlices
+comment1.target=java.lang.String\ sliceString(java.lang.String,\ int,\ int)
+comment2.params=encrypted\ klength\ mostCommon
+comment2.target=int[]\ tryKeyLength(java.lang.String,\ int,\ char)
+comment3.params=
+comment3.target=void\ breakVigenere()
+comment4.params=fr
+comment4.target=java.util.HashSet\ readDictionary(edu.duke.FileResource)
+comment4.text=\n\ This\ method\ first\ makes\ a\ new\ HashSet\ of\ Strings,\ then\ read\ each\ line\n\ in\ fr\ (which\ should\ contain\ exactly\ one\ word\ per\ line),\ convert\ that\n\ line\ to\ lowercase,\ and\ put\ that\ line\ into\ the\ HashSet\ created.\n\ The\ method\ then\ returns\ the\ HashSet\ representing\ the\ words\ in\ a\n\ dictionary.\n
+comment5.params=message\ dictionary
+comment5.target=int\ countWords(java.lang.String,\ java.util.HashSet)
+comment5.text=\n\ This\ method\ splits\ the\ message\ into\ words,\ iterate\ over\ those\ words,\n\ and\ see\ how\ many\ of\ them\ are\ \u201Creal\ words\u201D\u2014that\ is,\ how\ many\ appear\n\ in\ the\ dictionary.\ Recall\ that\ the\ words\ in\ dictionary\ are\ lowercase.\n\ This\ method\ return\ the\ integer\ count\ of\ how\ many\ valid\ words\ it\ found.\n
+comment6.params=encrypted\ dictionary
+comment6.target=java.lang.String\ breakForLanguage(java.lang.String,\ java.util.HashSet)
+comment6.text=\n\ This\ method\ tries\ all\ key\ lengths\ from\ 1\ to\ 100\ (uses\ tryKeyLength\n\ method\ to\ try\ one\ particular\ key\ length)\ to\ obtain\ the\ best\ decryption\n\ for\ each\ key\ length\ in\ that\ range.\ For\ each\ key\ length\ (i),\ this\ method\n\ decrypts\ the\ message\ (using\ VigenereCipher\u2019s\ decrypt\ method),\ and\ counts\n\ how\ many\ of\ the\ \u201Cwords\u201D\ in\ it\ are\ real\ words\ in\ English,\ based\ on\ the\n\ dictionary\ passed\ in\ (using\ the\ countWords\ method).\ This\ method\ figures\n\ out\ which\ decryption\ gives\ the\ largest\ count\ of\ real\ words,\ and\ returns\n\ that\ String\ decryption.\ Note\ that\ there\ is\ nothing\ special\ about\ 100;\n\ it\ will\ just\ receive\ messages\ with\ key\ lengths\ in\ the\ range\ 1\u2013100.\n\ If\ you\ did\ not\ have\ this\ information,\ it\ could\ iterate\ all\ the\ way\ to\n\ encrypted.length().\ The\ program\ would\ just\ take\ a\ bit\ longer\ to\ run.\n
+comment7.params=dictionary
+comment7.target=char\ mostCommonCharIn(java.util.HashSet)
+comment7.text=\n\ This\ method\ finds\ out\ which\ character,\ of\ the\ letters\ in\ the\ English\n\ alphabet,\ appears\ most\ often\ in\ the\ words\ in\ dictionary.\n\ It\ returns\ this\ most\ commonly\ occurring\ character.\n
+comment8.params=encrypted\ languages
+comment8.target=java.lang.String\ breakForAllLangs(java.lang.String,\ java.util.HashMap)
+numComments=9

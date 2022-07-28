@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CharactersInPlay
+comment1.params=
+comment1.target=CharactersInPlay()
+comment2.params=person
+comment2.target=void\ update(java.lang.String)
+comment2.text=\n\ Updates\ the\ possible\ character's\ name\ in\ charactersNames\ and\n\ increase\ the\ counter\ in\ namesCounters.\n
+comment3.params=line
+comment3.target=java.lang.String\ findName(java.lang.String)
+comment3.text=\n\ If\ there\ is\ a\ period\ on\ the\ line,\ extract\ the\ possible\ name\ of\ the\ speaking\ part\n\ and\ returns\ it.\ Otherwise\ returns\ null.\n
+comment4.params=
+comment4.target=void\ findAllCharacters()
+comment4.text=\n\ This\ method\ reads\ the\ file\ line-by-line.\ For\ each\ line,\ if\ there\ is\ a\n\ period\ on\ the\ line,\ extract\ the\ possible\ name\ of\ the\ speaking\ part,\ and\ call\n\ update\ to\ count\ it\ as\ an\ occurrence\ for\ this\ person.\ Make\ sure\ you\ clear\ the\n\ appropriate\ instance\ variables\ before\ each\ new\ file.\n
+comment5.params=num1\ num2
+comment5.target=void\ charactersWithNumParts(int,\ int)
+comment5.text=\n\ This\ method\ prints\ out\ the\ names\ of\ all\ those\ characters\ that\ have\ exactly\ number\n\ speaking\ parts,\ where\ number\ is\ greater\ than\ or\ equal\ to\ num1\ and\ less\ than\ or\n\ equal\ to\ num2.\ \n
+comment6.params=
+comment6.target=void\ tester()
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ThirdRatings
+comment1.params=
+comment1.target=ThirdRatings()
+comment2.params=ratingsfile
+comment2.target=ThirdRatings(java.lang.String)
+comment3.params=
+comment3.target=int\ getRaterSize()
+comment3.text=\n\ Returns\ the\ number\ of\ raters\ that\ were\ read\ in\ and\ stored\ in\ the\ ArrayList\ of\ type\n\ Rater.\n
+comment4.params=id\ minimalRaters
+comment4.target=double\ getAverageByID(java.lang.String,\ int)
+comment4.text=\n\ This\ method\ returns\ a\ double\ representing\ the\ average\ movie\ rating\ for\ this\ ID\ if\n\ there\ are\ at\ least\ minimalRaters\ ratings.\ If\ there\ are\ not\ minimalRaters\ ratings,\n\ then\ it\ returns\ 0.0\n
+comment5.params=minimalRaters
+comment5.target=java.util.ArrayList\ getAverageRatings(int)
+comment5.text=\n\ This\ method\ finds\ the\ average\ rating\ for\ every\ movie\ that\ has\ been\ rated\ by\ at\ least\n\ minimalRaters\ raters.\ Store\ each\ such\ rating\ in\ a\ Rating\ object\ in\ which\ the\ movie\n\ ID\ and\ the\ average\ rating\ are\ used\ in\ creating\ the\ Rating\ object.\ This\ method\ returns\n\ an\ ArrayList\ of\ all\ the\ Rating\ objects\ for\ movies\ that\ have\ at\ least\ the\ minimal\n\ number\ of\ raters\ supplying\ a\ rating\n
+numComments=6

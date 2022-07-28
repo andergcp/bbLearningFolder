@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WordFrequencies
+comment1.params=
+comment1.target=WordFrequencies()
+comment2.params=
+comment2.target=void\ findUnique()
+comment2.text=\n\ Adds\ every\ unique\ word\ to\ myWords\ and\ increment\ the\n\ counter\ according\ to\ the\ index\ of\ the\ word\ in\ myFreqs,\n\ to\ know\ the\ number\ of\ occurences\ for\ each\ word.\n
+comment3.params=
+comment3.target=int\ findIndexOfMax()
+comment3.text=\n\ Returns\ an\ int\ that\ is\ the\ index\ location\ of\ the\ largest\ value\ in\n\ myFreqs.\ If\ there\ is\ a\ tie,\ then\ return\ the\ first\ such\ value.\n
+comment4.params=
+comment4.target=void\ tester()
+numComments=5

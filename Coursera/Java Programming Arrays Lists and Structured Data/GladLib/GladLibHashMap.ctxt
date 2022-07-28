@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=GladLibHashMap
+comment1.params=
+comment1.target=GladLibHashMap()
+comment10.params=
+comment10.target=int\ totalWordsConsidered()
+comment10.text=\n\ This\ method\ returns\ the\ total\ number\ of\ words\ in\ the\ ArrayLists\ of\ the\n\ categories\ that\ were\ used\ for\ a\ particular\ GladLib\n
+comment11.params=
+comment11.target=void\ makeStory()
+comment2.params=source
+comment2.target=void\ initializeFromSource(java.lang.String)
+comment3.params=source
+comment3.target=java.lang.String\ randomFrom(java.util.ArrayList)
+comment4.params=label
+comment4.target=java.lang.String\ getSubstitute(java.lang.String)
+comment5.params=w
+comment5.target=java.lang.String\ processWord(java.lang.String)
+comment6.params=s\ lineWidth
+comment6.target=void\ printOut(java.lang.String,\ int)
+comment7.params=source
+comment7.target=java.lang.String\ fromTemplate(java.lang.String)
+comment8.params=source
+comment8.target=java.util.ArrayList\ readIt(java.lang.String)
+comment9.params=
+comment9.target=int\ totalWordsInMap()
+comment9.text=\n\ This\ method\ returns\ the\ total\ number\ of\ words\ in\ all\ the\ ArrayLists\ in\n\ the\ HashMap.\n
+numComments=12
