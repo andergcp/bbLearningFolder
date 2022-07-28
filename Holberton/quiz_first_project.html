@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnderDocument</title>
+  </head>
+  <body>
+    <dl>
+      <dt>Term</dt>
+      <dd>Definition of the term</dd>
+      <dt>Another term</dt>
+      <dd>Another definition of the term</dd>
+    </dl>
+    <p>
+      According to Mozilla's website,
+      <q cite="https://www.mozilla.org/en-US/about/history/details/"
+        >Firefox 1.0 was released in 2004 and became a big success.</q
+      >
+    </p>
+    <blockquote cite="https://tools.ietf.org/html/rfc1149">
+      <p>
+        Avian carriers can provide high delay, low throughput, and low altitude
+        service. The connection topology is limited to a single point-to-point
+        path for each carrier, used with standard carriers, but many carriers
+        can be used without significant interference with each other, outside of
+        early spring. This is because of the 3D ether space available to the
+        carriers, in contrast to the 1D ether used by IEEE802.3. The carriers
+        have an intrinsic collision avoidance system, which increases
+        availability.
+      </p>
+    </blockquote>
+    <!-- DON'T -->
+    <blockquote>
+      For writing maintainable and scalable HTML documents.
+    </blockquote>
+    <!-- Blockquote with a cite reference -->
+    <blockquote>
+      <p>
+        People think focus means saying yes to the thing you’ve got to focus on.
+        But that’s not what it means at all. It means saying no to the hundred
+        other good ideas that there are. You have to pick carefully. I’m
+        actually as proud of the things we haven’t done as the things I have
+        done. Innovation is saying no to 1,000 things.
+        <cite>Steve Jobs – Apple Worldwide Developers’ Conference, 1997</cite>
+      </p>
+    </blockquote>
+    <small>Some small text</small>
+    <del>Deleted text</del>
+    <ins>Inserted textr</ins>
+    <wbr />
+    <s>Strikethourgh</s>
+    <mark>marked text</mark>
+    <dfn>dfn</dfn>
+    <abbr title="myabbr">Abrev</abbr>
+    <code>code</code>
+    <hr />
+    <!-- Table with thead, tfoot, and tbody -->
+    <table>
+      <caption>
+        The table
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Header content 1</th>
+          <th scope="col">Header content 2</th>
+          <th scope="col">Header content 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Body content 1</th>
+          <td>Body content 2</td>
+          <td>Body content 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Footer content 1</th>
+          <td>Footer content 2</td>
+          <td>Footer content 3</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+    <hr />
+    <!-- Table without scope -->
+    <table>
+      <caption>
+        The table
+      </caption>
+      <thead>
+        <tr>
+          <th>Header content 1</th>
+          <th>Header content 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Body content 1</td>
+          <td>Body content 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Footer content 1</td>
+          <td>Footer content 2</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        Products
+      </caption>
+      <thead>
+        <th scope="col">Product name</th>
+        <th scope="col">Price</th>
+        <th scope="col">City</th>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Chococono</th>
+          <td>1700</td>
+          <td>Cali</td>
+        </tr>
+        <tr>
+          <th scope="row">Caser</th>
+          <td>1200</td>
+          <td>Quilla</td>
+        </tr>
+        <tr>
+          <th scope="row">Artesanal</th>
+          <td>1500</td>
+          <td>Bta</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>x</td>
+          <td>xx</td>
+          <td>xxx</td>
+        </tr>
+      </tfoot>
+    </table>
+    <details>
+      <summary>Details</summary>
+      Something small enough to escape casual notice.
+    </details>
+    <picture>
+      <source srcset="https://placebear.com/200/300" />
+      <source srcset="https://placebear.com/200/300" />
+      <img src="https://placebear.com/200/300" />
+    </picture>
+    <video
+      width="640"
+      height="480"
+      controls
+      autoplay
+      src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4"
+    >
+      Sorry, your browser doesn't support HTML5 <code>video</code>, but you can
+      download this video from the
+      <a href="https://archive.org/details/Popeye_forPresident" target="_blank"
+        >Internet Archive</a
+      >.
+    </video>
+  </body>
+</html>
